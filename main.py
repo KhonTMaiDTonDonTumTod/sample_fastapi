@@ -14,6 +14,7 @@ from starlette.middleware.cors import CORSMiddleware
 from routers import sample
 
 # initialise Fast APi instance
+
 app = FastAPI(title="Sample API",
               description="""
      Simple API for demonstration.
